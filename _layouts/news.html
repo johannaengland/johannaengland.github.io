@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>{{ page.title }}</title>
+<!-- link to main stylesheet -->
+<link rel="stylesheet" type="text/css" href="/css/main.css">
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="/">About</a></li>
+        <li><a href="/papers">Papers</a></li>
+        <li><a href="/news">News</a></li>
+        <li><a href="/projects">Projects</a></li>
+        <li><a href="/teaching">Teaching</a></li>
+    </ul>
+</nav>
+<div class="container">
+<h1>{{ page.title }}</h1>
+<div>In {{ page.date }}, {{ page.text }} </div>
+<h2>Abstract</h2>
+{{ page.abstract }}
+{{ content }}
+</div><!-- /.container -->
+<footer>
+    <ul>
+        <li><a href="mailto:england@campus.tu-berlin.de">email</a></li>
+        <li><a href="https://github.com/johannaengland">github.com/johannaengland</a></li>
+</ul>
+</footer>
+</body>
+</html>
