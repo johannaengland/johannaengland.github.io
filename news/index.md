@@ -1,6 +1,6 @@
 ---
 layout: news
-title: Johanna England
+title: News
 ---
 # News
 
