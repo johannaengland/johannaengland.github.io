@@ -1,6 +1,6 @@
 ---
-layout: publications
-title: Johanna England
+layout: default
+title: Publications
 ---
 # Publications
 
