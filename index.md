@@ -13,7 +13,7 @@ Student assistant at [DIMA Group](http://www.dima.tu-berlin.de), [TU Berlin](htt
 {% endfor %}
 
 ## News
-<iframe width="500" height="300" style="border:none;" src="https://johannaengland.github.io/news/index.md"></iframe>
+<iframe width="1000" height="300" style="border:none;" src="https://johannaengland.github.io/news/index.md"></iframe>
 
 ## Projects
 
