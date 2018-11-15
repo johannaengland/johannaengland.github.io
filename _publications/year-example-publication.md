@@ -17,7 +17,7 @@ abstract: "Short description of the publication."
 var nummer = 1;
 const numberOfSlides = 2;
 function folien() {
-     
+    console.log(nummer); 
     if (nummer =! numberOfSlides) {
         nummer = nummer + 1;
     } 
