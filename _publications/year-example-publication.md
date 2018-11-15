@@ -19,7 +19,7 @@ const numberOfSlides = 2;
 function folien() {
     console.log(nummer); 
     if (nummer =! numberOfSlides) {
-        nummer = nummer + 1;
+        nummer = 2;
         return;
     } 
     else {
