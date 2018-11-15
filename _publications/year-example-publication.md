@@ -7,6 +7,7 @@ pages: "On which pages is the publication?"
 year: "Year"
 
 abstract: "Short description of the publication."
+
 ---
 
 <body>
