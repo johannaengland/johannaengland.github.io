@@ -20,6 +20,7 @@ function folien() {
     console.log(nummer); 
     if (nummer =! numberOfSlides) {
         nummer = nummer + 1;
+        return;
     } 
     else {
         nummer = 1;
