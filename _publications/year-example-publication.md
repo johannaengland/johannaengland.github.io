@@ -5,7 +5,7 @@ author: "Author1, Author2, Author3"
 booktitle: "Book title"
 pages: "On which pages is the publication?"
 year: "Year"
-numberOfSlides: "numberOfSlides"
+numberOfSlides: 2
 
 abstract: "Short description of the publication."
 
