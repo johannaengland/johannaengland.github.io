@@ -23,7 +23,6 @@ function light(sw) {
     document.getElementById('myImage').src = pic;
 }
 </script>
-<br>
 <img id="myImage" src="pic1.jpg" width="256" height="172">
 
 <p>
