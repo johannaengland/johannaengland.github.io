@@ -5,6 +5,7 @@ author: "Author1, Author2, Author3"
 booktitle: "Book title"
 pages: "On which pages is the publication?"
 year: "Year"
+numberOfSlides: "numberOfSlides"
 
 abstract: "Short description of the publication."
 
@@ -13,21 +14,24 @@ abstract: "Short description of the publication."
 
 <body>
 <script>
-function light(sw) {
-    var pic;
-    if (sw == 0) {
-        pic = "/pic2.jpg"
-    } else {
-        pic = "/pic1.jpg"
+var nummer = 1;
+function folien() {
+    
+    if (nummer =! {{ numberOfSlides }}) {
+        nummer = nummer + 1;
+    } 
+    else {
+        nummer = 1;
     }
-    document.getElementById('myImage').src = pic;
+    
+    document.getElementById('myImage').src = "/pic"+nummer+".jpg";
 }
 </script>
 <img id="myImage" src="/pic1.jpg" width="256" height="172">
 
 <p>
-<button type="button" onclick="light(1)">Light On</button>
-<button type="button" onclick="light(0)">Light Off</button>
+<button type="button" onclick="folien()">previous</button>
+<button type="button" onclick="folien()">next</button>
 </p>
 
 </body>
