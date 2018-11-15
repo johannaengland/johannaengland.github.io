@@ -17,26 +17,3 @@ Student assistant at [DIMA Group](http://www.dima.tu-berlin.de), [TU Berlin](htt
 ## Projects
 
 ## Teaching
-
-This is a test 
-<body>
-<script>
-function light(sw) {
-    var pic;
-    if (sw == 0) {
-        pic = "pic2.jpg"
-    } else {
-        pic = "pic1.jpg"
-    }
-    document.getElementById('myImage').src = pic;
-}
-</script>
-
-<img id="myImage" src="pic1.jpg" width="256" height="172">
-
-<p>
-<button type="button" onclick="light(1)">Light On</button>
-<button type="button" onclick="light(0)">Light Off</button>
-</p>
-
-</body>
