@@ -19,7 +19,6 @@ const numberOfSlides = 2;
 function folien() {
     if (nummer !== numberOfSlides) {
         nummer = 2;
-        return;
     } 
     else {
         nummer = 1;
@@ -32,7 +31,7 @@ function folien() {
 <img id="currentSlide" src="/pic1.jpg" width="256" height="172">
 
 <p>
-//add functionality with previous and next instead of just next
+<!--add functionality with previous and next instead of just next-->
 <button type="button" onclick="folien()">previous</button>
 <button type="button" onclick="folien()">next</button>
 </p>
