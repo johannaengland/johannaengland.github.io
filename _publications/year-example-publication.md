@@ -14,19 +14,7 @@ abstract: "Short description of the publication."
 <body>
 <script>
 var number = 1;
-    
-var xmlhttp = new XMLHttpRequest();
-
-xmlhttp.onreadystatechange = function() {
-    if (xmlhttp.readyState == XMLHttpRequest.DONE) {
-        if (xmlhttp.status == 200) {
-            var numberOfSlides = (xmlhttp.responseText.match(/jpg/g) || []).length;
-        }
-    }
-};
-
-xmlhttp.open("GET", "", true);
-xmlhttp.send();
+const numberOfSlides = 3;
 
 function folien(direction) {
     if (direction === -1) {
