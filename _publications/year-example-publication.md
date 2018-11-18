@@ -15,7 +15,7 @@ abstract: "Short description of the publication."
 <body>
 <script>
 var number = 1;
-const numberOfSlides = 2;
+const numberOfSlides = 3;
 function folien(direction) {
     if (direction === -1) {
         if (number !== 1) {
