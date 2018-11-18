@@ -15,7 +15,7 @@ abstract: "Short description of the publication."
 <body>
 <script>
 var number = 1;
-const numberOfSlides = 3;
+const numberOfSlides = document.getElementsByTagName("pic").length;
 function folien(direction) {
     if (direction === -1) {
         if (number !== 1) {
@@ -33,7 +33,7 @@ function folien(direction) {
             number = 1;
         }
     }
-    document.getElementById('currentSlide').src = "/pic"+number+".jpg";;
+    document.getElementById('currentSlide').src = "/pic"+number+".jpg";
 }
 </script>
 <img id="currentSlide" src="/pic1.jpg" width="256" height="172">
