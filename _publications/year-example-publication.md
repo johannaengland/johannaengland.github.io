@@ -16,24 +16,31 @@ abstract: "Short description of the publication."
 <script>
 var nummer = 1;
 const numberOfSlides = 2;
-function folien() {
-    if (nummer !== numberOfSlides) {
-        nummer = 2;
-    } 
-    else {
-        nummer = 1;
+function folien(direction) {
+    if (direction === -1) {
+        if (number !== 0) {
+            number = number - 1;
+        } 
+        else {
+            number = numberOfSlides;
+        }
     }
-    var source = "/pic"+nummer+".jpg";
-    console.log(source);
-    document.getElementById('currentSlide').src = source;
+    else {
+        if (number !== numberOfSlides) {
+            number = number + 1;
+        } 
+        else {
+            number = 1;
+        }
+    }
+    document.getElementById('currentSlide').src = "/pic"+number+".jpg";;
 }
 </script>
 <img id="currentSlide" src="/pic1.jpg" width="256" height="172">
 
 <p>
-<!--add functionality with previous and next instead of just next-->
-<button type="button" onclick="folien()">previous</button>
-<button type="button" onclick="folien()">next</button>
+<button type="button" onclick="folien(-1)">previous</button>
+<button type="button" onclick="folien(1)">next</button>
 </p>
 
 </body>
