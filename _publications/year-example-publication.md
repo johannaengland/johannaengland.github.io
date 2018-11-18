@@ -14,7 +14,7 @@ abstract: "Short description of the publication."
 
 <body>
 <script>
-var nummer = 1;
+var number = 1;
 const numberOfSlides = 2;
 function folien(direction) {
     if (direction === -1) {
