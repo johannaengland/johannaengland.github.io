@@ -16,7 +16,7 @@ abstract: "Short description of the publication."
 var number = 1;
 const numberOfSlides = 3;
 
-function folien(direction) {
+function slideshow(direction) {
     if (direction === -1) {
         if (number !== 1) {
             number = number - 1;
@@ -38,8 +38,8 @@ function folien(direction) {
 </script>
 <img id="currentSlide" src="/pic1.jpg" width="256" height="172">
 <p>
-<button type="button" onclick="folien(-1)">previous</button>
-<button type="button" onclick="folien(1)">next</button>
+<button type="button" onclick="slideshow(-1)">previous</button>
+<button type="button" onclick="slideshow(1)">next</button>
 </p>
 
 </body>
