@@ -37,7 +37,6 @@ function folien(direction) {
 }
 </script>
 <img id="currentSlide" src="/pic1.jpg" width="256" height="172">
-
 <p>
 <button type="button" onclick="folien(-1)">previous</button>
 <button type="button" onclick="folien(1)">next</button>
