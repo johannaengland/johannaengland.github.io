@@ -18,7 +18,7 @@ var number = 1;
 const numberOfSlides = 2;
 function folien(direction) {
     if (direction === -1) {
-        if (number !== 0) {
+        if (number !== 1) {
             number = number - 1;
         } 
         else {
