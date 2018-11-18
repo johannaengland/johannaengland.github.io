@@ -5,7 +5,6 @@ author: "Author1, Author2, Author3"
 booktitle: "Book title"
 pages: "On which pages is the publication?"
 year: "Year"
-numberOfSlides: 2
 
 abstract: "Short description of the publication."
 
@@ -15,7 +14,20 @@ abstract: "Short description of the publication."
 <body>
 <script>
 var number = 1;
-const numberOfSlides = document.getElementsByTagName("pic").length;
+    
+var xmlhttp = new XMLHttpRequest();
+
+xmlhttp.onreadystatechange = function() {
+    if (xmlhttp.readyState == XMLHttpRequest.DONE) {
+        if (xmlhttp.status == 200) {
+            var numberOfSlides = (xmlhttp.responseText.match(/jpg/g) || []).length;
+        }
+    }
+};
+
+xmlhttp.open("GET", "", true);
+xmlhttp.send();
+
 function folien(direction) {
     if (direction === -1) {
         if (number !== 1) {
