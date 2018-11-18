@@ -17,7 +17,6 @@ abstract: "Short description of the publication."
 var nummer = 1;
 const numberOfSlides = 2;
 function folien() {
-    console.log(nummer); 
     if (nummer !== numberOfSlides) {
         nummer = 2;
         return;
@@ -25,8 +24,9 @@ function folien() {
     else {
         nummer = 1;
     }
-    
-    document.getElementById('myImage').src = "/pic"+nummer+".jpg";
+    source = "/pic"+nummer+".jpg";
+    console.log(name);
+    document.getElementById('myImage').src = source;
 }
 </script>
 <img id="myImage" src="/pic1.jpg" width="256" height="172">
