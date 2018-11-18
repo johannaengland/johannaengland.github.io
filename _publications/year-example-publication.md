@@ -26,12 +26,13 @@ function folien() {
     }
     source = "/pic"+nummer+".jpg";
     console.log(name);
-    document.getElementById('myImage').src = source;
+    document.getElementById('currentSlide').src = source;
 }
 </script>
-<img id="myImage" src="/pic1.jpg" width="256" height="172">
+<img id="currentSlide" src="/pic1.jpg" width="256" height="172">
 
 <p>
+//add functionality with previous and next instead of just next
 <button type="button" onclick="folien()">previous</button>
 <button type="button" onclick="folien()">next</button>
 </p>
