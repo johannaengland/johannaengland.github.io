@@ -24,8 +24,8 @@ function folien() {
     else {
         nummer = 1;
     }
-    source = "/pic"+nummer+".jpg";
-    console.log(name);
+    var source = "/pic"+nummer+".jpg";
+    console.log(source);
     document.getElementById('currentSlide').src = source;
 }
 </script>
