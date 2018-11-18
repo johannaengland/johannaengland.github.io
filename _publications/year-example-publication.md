@@ -18,7 +18,7 @@ var nummer = 1;
 const numberOfSlides = 2;
 function folien() {
     console.log(nummer); 
-    if (nummer =! numberOfSlides) {
+    if (nummer !== numberOfSlides) {
         nummer = 2;
         return;
     } 
