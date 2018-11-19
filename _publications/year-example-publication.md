@@ -47,5 +47,6 @@ function slideshow(direction) {
     <button type="button" onclick="slideshow(-1)">previous</button>
     <button type="button" onclick="slideshow(1)">next</button>
 </p>
+<!-- to be added: pdf download, slides (ppt), bibtech //-->
 
 </body>
