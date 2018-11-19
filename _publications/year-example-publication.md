@@ -13,33 +13,39 @@ abstract: "Short description of the publication."
 
 <body>
 <script>
-var number = 1;
+var currentSlide = 1;
 const numberOfSlides = 3;
+    
+function totalSlides() {return numberOfSlides;}
+function currentSlide() {return currentSlide;}
 
 function slideshow(direction) {
     if (direction === -1) {
-        if (number !== 1) {
-            number = number - 1;
+        if (currentSlide !== 1) {
+            currentSlide = currentSlide - 1;
         } 
         else {
-            number = numberOfSlides;
+            currentSlide = numberOfSlides;
         }
     }
     else {
-        if (number !== numberOfSlides) {
-            number = number + 1;
+        if (currentSlide !== numberOfSlides) {
+            currentSlide = currentSlide + 1;
         } 
         else {
-            number = 1;
+            currentSlide = 1;
         }
     }
-    document.getElementById('currentSlide').src = "/pic"+number+".jpg";
+    document.getElementById('currentSlide').src = "/pic"+currentSlide+".jpg";
 }
 </script>
 <img id="currentSlide" src="/pic1.jpg" width="256" height="172">
 <p>
-<button type="button" onclick="slideshow(-1)">previous</button>
-<button type="button" onclick="slideshow(1)">next</button>
+    Folie currentSlide()/totalSlides()
+</p>
+<p>
+    <button type="button" onclick="slideshow(-1)">previous</button>
+    <button type="button" onclick="slideshow(1)">next</button>
 </p>
 
 </body>
