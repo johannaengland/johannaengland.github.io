@@ -40,9 +40,9 @@ function slideshow(direction) {
 }
 </script>
 <img id="currentSlide" src="/pic1.jpg" width="256" height="172">
-<p>
+<!-- <p>
     Folie <script> currentSlide() totalSlides() </script>
-</p>
+</p> //-->
 <p>
     <button type="button" onclick="slideshow(-1)">previous</button>
     <button type="button" onclick="slideshow(1)">next</button>
