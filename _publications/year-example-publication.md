@@ -15,9 +15,7 @@ abstract: "Short description of the publication."
 <script>
 var currentSlide = 1;
 const numberOfSlides = 3;
-    
-function totalSlides() {return numberOfSlides;}
-function currentSlide() {return currentSlide;}
+document.getElementById('slidecount') = "Folie 0/"+ numberOfSlides;
 
 function slideshow(direction) {
     if (direction === -1) {
@@ -40,9 +38,9 @@ function slideshow(direction) {
 }
 </script>
 <img id="currentSlide" src="/pic1.jpg" width="256" height="172">
-<!-- <p>
-    Folie <script> currentSlide() totalSlides() </script>
-</p> //-->
+<p id='slidecount'>
+    
+</p>
 <p>
     <button type="button" onclick="slideshow(-1)">previous</button>
     <button type="button" onclick="slideshow(1)">next</button>
