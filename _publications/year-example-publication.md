@@ -15,11 +15,12 @@ abstract: "Short description of the publication."
 <script>
 var currentSlide = 1;
 const numberOfSlides = 3;
-slidecount();
     
 function slidecount() {
     document.getElementById('slidecount') = "Folie "+currentSlide+"/"+ numberOfSlides;
 }
+
+slidecount();
 
 function slideshow(direction) {
     if (direction === -1) {
