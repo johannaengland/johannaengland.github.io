@@ -17,7 +17,7 @@ var currentSlide = 1;
 const numberOfSlides = 3;
     
 function slidecount() {
-    document.getElementById('slidecount') = "Folie "+currentSlide+"/"+ numberOfSlides;
+    document.getElementById('slidecount').write("Folie "+currentSlide+"/"+ numberOfSlides);
 }
 
 slidecount();
