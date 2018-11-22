@@ -16,12 +16,12 @@ abstract: "Short description of the publication."
 var currentSlide = 1;
 const numberOfSlides = 3;
 //configuring progress bar at beginning
-slidecount();
+//slidecount();
     
-function slidecount() {
+/*function slidecount() {
     document.getElementById('slidecount').value = currentSlide;
     document.getElementById('slidecount').max = numberOfSlides;
-}
+}*/
 
 function slideshow(direction) {
     if (direction === -1) {
@@ -40,7 +40,9 @@ function slideshow(direction) {
             currentSlide = 1;
         }
     }
-    slidecount();
+    //slidecount();
+    document.getElementById('slidecount').value = currentSlide;
+    document.getElementById('slidecount').max = numberOfSlides;
     document.getElementById('currentSlide').src = "/pic"+currentSlide+".jpg";
 }
 </script>
