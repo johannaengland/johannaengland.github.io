@@ -16,7 +16,7 @@ abstract: "Short description of the publication."
 var currentSlide = 1;
 const numberOfSlides = 3;
 //configuring progress bar at beginning
-document.getElementById('slidecount').value = currentSlide;
+document.getElementById('slidecount').value = 1;
 document.getElementById('slidecount').max = numberOfSlides;
 
 function slideshow(direction) {
