@@ -45,7 +45,7 @@ function slideshow(direction) {
 }
 </script>
 <img id="currentSlide" src="/pic1.jpg" width="256" height="172"> <br>
-<meter id="slidecount" value="1" min="1" max="3"></meter><br>
+<meter id="slidecount" value="1" min="1" max="3" width="256"></meter><br>
 <p>
     <button type="button" onclick="slideshow(-1)">previous</button>
     <button type="button" onclick="slideshow(1)">next</button>
