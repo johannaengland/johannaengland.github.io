@@ -15,7 +15,11 @@ abstract: "Short description of the publication."
 <script>
 var currentSlide = 1;
 const numberOfSlides = 3;
-document.getElementById('slidecount') = "Folie 0/"+ numberOfSlides;
+slidecount(currentSlide, numberOfSlides);
+    
+function slidecount() {
+    document.getElementById('slidecount') = "Folie "+currentSlide+"/"+ numberOfSlides;
+}
 
 function slideshow(direction) {
     if (direction === -1) {
@@ -34,13 +38,12 @@ function slideshow(direction) {
             currentSlide = 1;
         }
     }
+    slidecount();
     document.getElementById('currentSlide').src = "/pic"+currentSlide+".jpg";
 }
 </script>
 <img id="currentSlide" src="/pic1.jpg" width="256" height="172">
-<p id='slidecount'>
-    
-</p>
+<p id="slidecount"'></p>
 <p>
     <button type="button" onclick="slideshow(-1)">previous</button>
     <button type="button" onclick="slideshow(1)">next</button>
