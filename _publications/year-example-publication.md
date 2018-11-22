@@ -15,7 +15,7 @@ abstract: "Short description of the publication."
 <script>
 var currentSlide = 1;
 const numberOfSlides = 3;
-slidecount(currentSlide, numberOfSlides);
+slidecount();
     
 function slidecount() {
     document.getElementById('slidecount') = "Folie "+currentSlide+"/"+ numberOfSlides;
