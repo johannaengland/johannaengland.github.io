@@ -16,11 +16,12 @@ abstract: "Short description of the publication."
 var currentSlide = 1;
 const numberOfSlides = 3;
     
-function slidecount() {
+/*function slidecount() {
     document.getElementById('slidecount').write("Folie ",currentSlide,"/",numberOfSlides);
 }
 
 slidecount();
+*/
 
 function slideshow(direction) {
     if (direction === -1) {
@@ -39,12 +40,12 @@ function slideshow(direction) {
             currentSlide = 1;
         }
     }
-    slidecount();
+    //slidecount();
     document.getElementById('currentSlide').src = "/pic"+currentSlide+".jpg";
 }
 </script>
 <img id="currentSlide" src="/pic1.jpg" width="256" height="172">
-<p id="slidecount"'></p>
+<meter id="slidecount" value="1" min="1" max="3"></meter><br>
 <p>
     <button type="button" onclick="slideshow(-1)">previous</button>
     <button type="button" onclick="slideshow(1)">next</button>
