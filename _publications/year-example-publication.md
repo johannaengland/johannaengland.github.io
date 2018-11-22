@@ -16,12 +16,8 @@ abstract: "Short description of the publication."
 var currentSlide = 1;
 const numberOfSlides = 3;
 //configuring progress bar at beginning
-//slidecount();
-    
-/*function slidecount() {
-    document.getElementById('slidecount').value = currentSlide;
-    document.getElementById('slidecount').max = numberOfSlides;
-}*/
+document.getElementById('slidecount').value = currentSlide;
+document.getElementById('slidecount').max = numberOfSlides;
 
 function slideshow(direction) {
     if (direction === -1) {
@@ -40,14 +36,14 @@ function slideshow(direction) {
             currentSlide = 1;
         }
     }
-    //slidecount();
+    
     document.getElementById('slidecount').value = currentSlide;
     document.getElementById('slidecount').max = numberOfSlides;
     document.getElementById('currentSlide').src = "/pic"+currentSlide+".jpg";
 }
 </script>
 <img id="currentSlide" src="/pic1.jpg" width="256" height="172"> <br>
-<progress id="slidecount" value="1" max="3"></progress><br>
+<progress id="slidecount" value="" max=""></progress><br>
 <p>
     <button type="button" onclick="slideshow(-1)">previous</button>
     <button type="button" onclick="slideshow(1)">next</button>
