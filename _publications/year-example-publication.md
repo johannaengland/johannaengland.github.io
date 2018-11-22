@@ -15,7 +15,7 @@ abstract: "Short description of the publication."
 <script>
 var currentSlide = 1;
 const numberOfSlides = 3;
-//configuring meter at beginning
+//configuring progress bar at beginning
 slidecount();
     
 function slidecount() {
@@ -45,7 +45,7 @@ function slideshow(direction) {
 }
 </script>
 <img id="currentSlide" src="/pic1.jpg" width="256" height="172"> <br>
-<meter id="slidecount" value="" min="1" max=""></meter><br>
+<progress id="slidecount" value="1" max="3"></progress><br>
 <p>
     <button type="button" onclick="slideshow(-1)">previous</button>
     <button type="button" onclick="slideshow(1)">next</button>
