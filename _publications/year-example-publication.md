@@ -48,8 +48,8 @@ function slideshow(direction) {
 <!-- to be added: pdf download, slides (ppt), bibtech //-->
 <table> 
     <caption>Downloads</caption>
-    <td><a href="icons/lickingCat.jpg"><img src="icons/pdf.jpg" width:"50"></a></td>
-    <td><a href="icons/lickingCat.jpg"><img src="icons/ppt.jpg" width:"50"></a></td>
-    <td><a href="images/lickingCat.jpg"><img src="icons/bibtex.jpg" width:"50"></a></td>
+    <td><a href="icons/lickingCat.jpg"><img id="pdfIcon" src="icons/pdf.jpg"></a></td>
+    <td><a href="icons/lickingCat.jpg"><img id="pptIcon" src="icons/ppt.jpg"></a></td>
+    <td><a href="images/lickingCat.jpg"><img id="bibtexIcon" src="icons/bibtex.jpg"></a></td>
 </table>
 </body>
