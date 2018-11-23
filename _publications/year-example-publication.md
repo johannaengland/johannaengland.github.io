@@ -39,7 +39,7 @@ function slideshow(direction) {
     document.getElementById('currentSlide').src = "/pic"+currentSlide+".jpg";
 }
 </script>
-<img id="currentSlide" src="/_publications/images/pic1.jpg" width="256" height="172"> <br>
+<img id="currentSlide" src="../_publications/images/pic1.jpg" width="256" height="172"> <br>
 <progress id="slidecount" value="0" max="2"></progress><br>
 <p>
     <button type="button" onclick="slideshow(-1)">previous</button>
