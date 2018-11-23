@@ -36,7 +36,7 @@ function slideshow(direction) {
     
     document.getElementById('slidecount').value = currentSlide -1;
     document.getElementById('slidecount').max = numberOfSlides -1;
-    document.getElementById('currentSlide').src = "/pic"+currentSlide+".jpg";
+    document.getElementById('currentSlide').src = "images/pic"+currentSlide+".jpg";
 }
 </script>
 <img id="currentSlide" src="images/pic1.jpg" width="256" height="172"> <br>
