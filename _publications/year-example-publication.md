@@ -50,6 +50,6 @@ function slideshow(direction) {
     <caption>Downloads</caption>
     <td><a href="icons/lickingCat.jpg"><img src="icons/pdf.jpg"></a></td>
     <td><a href="icons/lickingCat.jpg"><img src="icons/ppt.jpg"></a></td>
-    <td><a href="images/lickingCat.jpg"><img src="icons/bibtech.jpg"></a></td>
+    <td><a href="images/lickingCat.jpg"><img src="icons/bibtex.jpg"></a></td>
 </table>
 </body>
