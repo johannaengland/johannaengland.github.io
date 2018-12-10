@@ -9,8 +9,6 @@ year: "Year"
 abstract: "Short description of the publication."
 
 ---
-<head><script src="~/js/publications.js"></script></head>
-
 ## Folien und Download
 
 <body>
