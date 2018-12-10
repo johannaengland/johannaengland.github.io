@@ -1,4 +1,3 @@
-<script>
 var currentSlide = 1;
 const numberOfSlides = 3;
 
@@ -24,4 +23,3 @@ function slideshow(direction) {
     document.getElementById('slidecount').max = numberOfSlides -1;
     document.getElementById('currentSlide').src = "images/pic"+currentSlide+".jpg";
 }
-</script>
