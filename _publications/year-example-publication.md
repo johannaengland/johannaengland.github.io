@@ -9,36 +9,11 @@ year: "Year"
 abstract: "Short description of the publication."
 
 ---
+<head><script src="../js/publications.js"></script></head>
+
 ## Folien und Download
 
 <body>
-<script>
-var currentSlide = 1;
-const numberOfSlides = 3;
-
-function slideshow(direction) {
-    if (direction === -1) {
-        if (currentSlide !== 1) {
-            currentSlide = currentSlide - 1;
-        } 
-        else {
-            currentSlide = numberOfSlides;
-        }
-    }
-    else {
-        if (currentSlide !== numberOfSlides) {
-            currentSlide = currentSlide + 1;
-        } 
-        else {
-            currentSlide = 1;
-        }
-    }
-    
-    document.getElementById('slidecount').value = currentSlide -1;
-    document.getElementById('slidecount').max = numberOfSlides -1;
-    document.getElementById('currentSlide').src = "images/pic"+currentSlide+".jpg";
-}
-</script>
 <img id="currentSlide" src="images/pic1.jpg" width="256" height="172"> <br>
 <progress id="slidecount" value="0" max="2"></progress><br>
 <p>
