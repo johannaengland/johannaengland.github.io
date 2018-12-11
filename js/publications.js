@@ -23,7 +23,7 @@ function slideshow(direction) {
     document.getElementById('slidecount').max = numberOfSlides -1;
     document.getElementById('currentSlide').src = "images/pic"+currentSlide+".jpg";
 }
-
+/*
 //Das ist alles für den Bibtex-Button
 // Get the modal
 var modal = document.getElementById('myModal');
@@ -49,3 +49,4 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 };
+*/
