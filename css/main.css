@@ -1,3 +1,7 @@
+#bibtexBtn {
+    cursor: pointer;
+}
+
 .bibtexTextHidden {
     display: none;
 }
