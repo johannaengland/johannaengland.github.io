@@ -24,8 +24,6 @@ function slideshow(direction) {
     document.getElementById('currentSlide').src = "images/pic"+currentSlide+".jpg";
 }
 
-let bibtexText = document.getElementById("bibtexText");
-
 function showBibtexText () {
-    bibtexText.classList.toggle("bibtexTextHidden");
+    document.getElementById("bibtexText").classList.toggle("bibtexTextHidden");
 }
