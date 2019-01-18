@@ -5,7 +5,7 @@ function LoadFile() {
     
     let newsArray = Array.from(y.body.getElementsByClassName("container")[0].getElementsByTagName("li"));
     
-    let newsDiv = document.getElementById("news");
+    let newsDiv = document.getElementById("newsList");
     
     newsArray.forEach(addNewsToList);
     
