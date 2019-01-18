@@ -1,5 +1,8 @@
 function LoadFile() {
     let frame = document.getElementById('newsFile');
+    
+    console.log(frame);
+    /*
     let y = (frame.contentWindow || frame.contentDocument);
     if (y.document) y = y.document;
     let content = y.body.childNodes[0].innerHTML;
@@ -16,5 +19,6 @@ function LoadFile() {
         listElement.appendChild(text);
         newsDiv.appendChild(listElement);
     }
+    */
 
 }
