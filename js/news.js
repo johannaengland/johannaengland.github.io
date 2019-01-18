@@ -7,6 +7,7 @@ function LoadFile() {
     
     let newsDiv = document.getElementById("newsList");
     
+    newsArray = newsArray.slice(0,2);
     newsArray.forEach(addNewsToList);
     
     function addNewsToList (newsElement) {
