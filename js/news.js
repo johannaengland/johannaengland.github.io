@@ -2,10 +2,11 @@ function LoadFile() {
     let frame = document.getElementById('newsFile');
     
     console.log(frame);
-    /*
     let y = (frame.contentWindow || frame.contentDocument);
     if (y.document) y = y.document;
-    let content = y.body.childNodes[0].innerHTML;
+    
+    console.log(y.body.div);
+    /*let content = y.body.childNodes[0].innerHTML;
 
     let newsArray = content.match(/\d{1,2}.\d{1,2}.\d{4}: .+/g);
     newsArray= newsArray.slice(0, 2);
