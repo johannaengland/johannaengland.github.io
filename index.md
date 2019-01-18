@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Johanna England
+maxNews: 2
+
 ---
 # Johanna England
 
