@@ -2,6 +2,14 @@
     cursor: pointer;
 }
 
+#currentSlide {
+    width: 50%;
+}
+
+#slidecount {
+    width: 50%;
+}
+
 .bibtexTextHidden {
     display: none;
 }
