@@ -6,6 +6,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:name
+  news:
+    output: true
+    permalink: /:collection/:name
 
 defaults:
   - scope:
@@ -13,3 +16,8 @@ defaults:
       type: publications
     values:
       layout: publication
+  - scope:
+      path: ""
+      type: news
+    values:
+      layout: news
