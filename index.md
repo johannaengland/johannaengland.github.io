@@ -16,7 +16,7 @@ Student assistant at [DIMA Group](http://www.dima.tu-berlin.de), [TU Berlin](htt
 ## News
 
 {% for news in site.news %}
-  {{ post.excerpt }}
+  {{ post.content | split: '<!-- more -->' | first }}
 {% endfor %}
 
 ## Projects
