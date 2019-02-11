@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Teaching
+
 ---
 # Teaching
 
 {% for teaching in site.teaching %}
-* <a href="{{ teaching.url }}"> :{{ teaching.title }},{{ teaching.courses }}
+* {{ teaching.author }}: <a href="{{ teaching.url }}">*{{ teaching.title }}*</a>, in {{ teaching.booktitle }}, {{ teaching.year }}
 {% endfor %}
