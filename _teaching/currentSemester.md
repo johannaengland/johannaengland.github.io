@@ -1,6 +1,7 @@
 ---
 layout: teaching
 title: "SoSe 2019"
+courses: "List courses you teach"
 
 ---
 
