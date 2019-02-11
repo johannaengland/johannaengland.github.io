@@ -1,10 +1,12 @@
 ---
 layout: teaching
-title: "SoSe 2019"
-courses: "List courses you teach"
+title: "Title of the publication"
+author: "Author1, Author2, Author3"
+booktitle: "Book title"
+pages: "On which pages is the publication?"
+year: "Year"
+
+abstract: "Short description of the publication."
+bibtex: "Bibtex reference"
 
 ---
-
-#Here you can simply write what you're teaching this semester
-Very interesting
-Much wow
