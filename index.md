@@ -27,4 +27,4 @@ Student assistant at [DIMA Group](http://www.dima.tu-berlin.de), [TU Berlin](htt
 * {{ teaching.author }}: <a href="{{ teaching.url }}">*{{ teaching.title }}*</a>, in {{ teaching.booktitle }}, {{ teaching.year }}
 {% endfor %}
 
-Thanks for reading
+Thanks for not working
