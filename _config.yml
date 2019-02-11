@@ -2,8 +2,6 @@ theme: jekyll-theme-slate
 name: Johanna England
 markdown: kramdown
 
-include: ["/_publications/"]
-
 collections:
   publications:
     output: true
@@ -23,3 +21,8 @@ defaults:
       type: news
     values:
       layout: news
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: teaching
