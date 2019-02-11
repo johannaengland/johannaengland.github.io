@@ -2,7 +2,7 @@ theme: jekyll-theme-slate
 name: Johanna England
 markdown: kramdown
 
-include: ["/_publications/"]
+include: ["_publications/"]
 
 collections:
   publications:
