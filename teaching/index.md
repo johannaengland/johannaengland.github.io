@@ -4,7 +4,8 @@ title: Teaching
 
 ---
 # Teaching
+Here I want everything happening in the current semester.
 
-{% for teaching in site.teaching %}
-* {{ teaching.author }}: <a href="{{ teaching.url }}">*{{ teaching.title }}*</a>, in {{ teaching.booktitle }}, {{ teaching.year }}
+{% for teaching in site.teaching offset:1 %}
+* <a href="{{ teaching.url }}">*{{ teaching.title }}*</a>: {{ teaching.courses }}
 {% endfor %}
