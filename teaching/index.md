@@ -4,4 +4,4 @@ title: Teaching
 ---
 # Teaching
 
-{include_relative teaching/currentSemester.md}
+{include_relative /teaching/currentSemester.md}
