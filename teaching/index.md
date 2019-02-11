@@ -4,7 +4,7 @@ title: Teaching
 
 ---
 # Teaching
-{% include_relative current-semester %}
+{% include_relative /current-semester.md %}
 Here I want everything happening in the current semester.
 
 {% for teaching in site.teaching offset:1 %}
