@@ -5,5 +5,5 @@ title: Teaching
 # Teaching
 
 {% for teaching in site.teaching %}
-* {{ teaching.courses }}
+* <a href="{{ teaching.url }}">:{{ teaching.title }},{{ teaching.courses }}
 {% endfor %}
