@@ -21,7 +21,7 @@ function slideshow(direction) {
     
     document.getElementById('slidecount').value = currentSlide -1;
     document.getElementById('slidecount').max = numberOfSlides -1;
-    document.getElementById('currentSlide').src = "images/pic"+currentSlide+".jpg";
+    document.getElementById('currentSlide').src = "/slides/"+currentSlide+".jpg";
 }
 
 function showBibtexText () {
