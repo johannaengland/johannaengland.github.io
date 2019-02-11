@@ -4,4 +4,6 @@ title: Teaching
 ---
 # Teaching
 
-{include_relative /teaching/currentSemester.md}
+{% for teaching in site.teaching %}
+* {{ teaching.courses }}
+{% endfor %}
