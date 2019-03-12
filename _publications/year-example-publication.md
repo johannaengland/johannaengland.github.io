@@ -7,9 +7,10 @@ pages: "On which pages is the publication?"
 year: "Year"
 
 abstract: "Short description of the publication."
-bibtex: "Bibtex reference 
-let's see, if that works somehow 
-I really hope so"
+bibtex: |
+ Bibtex reference 
+ let's see, if that works somehow 
+ I really hope so
 
 ---
 
