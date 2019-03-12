@@ -8,10 +8,10 @@ title: Teaching
 
 Here I want everything happening in the current semester. 
 
-{% for teaching in site.teaching %}
+{% for i in (1..5) %}
     {% if forloop.first == true %}
-        {% continue %}
+        First time through!
     {% else %}
-        * <a href="{{ teaching.url }}">*{{ teaching.title }}*</a>: {{ teaching.courses }}
+        Not the first time.
     {% endif %}
 {% endfor %}
