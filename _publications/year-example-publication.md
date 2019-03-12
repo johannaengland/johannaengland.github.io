@@ -6,8 +6,7 @@ booktitle: "Book title"
 pages: "On which pages is the publication?"
 year: "Year"
 
-abstract: "Short description of the publication."
-bibtex: "Training machine learning models at scale is a popular workload for distributed
+abstract: "Training machine learning models at scale is a popular workload for distributed
 data flow systems. However, as these systems were originally built to fulfill quite
 different requirements it remains an open question how effectively they actually
 perform for ML workloads. In this paper we argue that benchmarking of large scale
@@ -21,6 +20,7 @@ able to robustly scale with increasing data set size, current generation data fl
 systems are surprisingly inefficient at training machine learning models at need
 substantial resources to come within reach of the performance of single machine
 libraries."
+bibtex: "BibTex Reference"
 
 ---
 
