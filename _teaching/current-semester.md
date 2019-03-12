@@ -1,6 +1,6 @@
 ---
 layout: teaching
-title: "Which semester are we talking about?"
+title: "Current Semester"
 courses: "A short list of courses, which are relevant this semester"
 
 ---
