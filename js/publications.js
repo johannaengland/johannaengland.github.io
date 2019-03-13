@@ -1,7 +1,7 @@
 let currentSlide = 1;
 const numberOfSlides = 3;
 
-document.getElementById("bibtexText").innerHTML = "Something"
+window.onload = document.getElementById("bibtexText").innerHTML = "Something"
 
 
 function slideshow(direction) {
