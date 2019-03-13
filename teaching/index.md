@@ -7,6 +7,6 @@ title: Teaching
 
 Here I want everything happening in the current semester. 
 
-{% for semester in site.teaching %}
-    * <a href="{{ semester.url }}">*{{ semester.title }}*</a>: {{ semester.courses }}
+{% for teaching in site.teaching %}
+* <a href="{{ teaching.url }}">{{ teaching.title }}</a>: {{ teaching.courses }}
 {% endfor %}
