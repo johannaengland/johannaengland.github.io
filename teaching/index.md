@@ -5,15 +5,13 @@ title: Teaching
 ---
 # Teaching
  
-{% for teaching in site.teaching limit:1 %}
-  {{ teaching.content }}
-{% endfor %}
-
-{% for teaching in site.teaching %}
-* <a href="{{ teaching.url }}">{{ teaching.title }}</a>: {{ teaching.courses }}
-{% endfor %}
-
+## Current Semester
 {% assign sorted = site.teaching | reverse %}
-{% for item in sorted %}
-  * <a href="{{ item.url }}">{{ item.title }}</a>: {{ item.courses }}
+{% for semester in sorted limit:1 %}
+  {{ semester.content }}
+{% endfor %}
+
+## Past Semesters
+{% for semester in sorted %}
+  * <a href="{{ semester.url }}">{{ semester.title }}</a>: {{ semester.courses }}
 {% endfor %}
