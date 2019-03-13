@@ -1,6 +1,9 @@
 let currentSlide = 1;
 const numberOfSlides = 3;
 
+document.getElementById("bibtexText").innerHTML = "Something"
+
+
 function slideshow(direction) {
     if (direction === -1) {
         if (currentSlide !== 1) {
