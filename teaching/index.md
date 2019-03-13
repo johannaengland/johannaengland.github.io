@@ -12,6 +12,6 @@ title: Teaching
 {% endfor %}
 
 ## Past Semesters
-{% for semester in sorted %}
+{% for semester in sorted offset:1 %}
   * <a href="{{ semester.url }}">{{ semester.title }}</a>: {{ semester.courses }}
 {% endfor %}
