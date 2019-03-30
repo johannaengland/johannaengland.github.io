@@ -29,17 +29,3 @@ function slideshow(direction) {
 function showBibtexText () {
     document.getElementById("bibtexText").classList.toggle("bibtexTextHidden");
 }
-
-window.onload = function checkDownloads() {
-    pdf = document.getElementById(pdf);
-    console.log(pdf);
-    pdf.href = "/downloads/publication.pdf";
-    pdf.onerror = function deletePdfElement() {
-        document.getElementById(tdpdf).removeChild(pdf);
-    }
-    pptx = document.getElementById(pptx)
-    pptx.href = "/downloads/slides.pptx";
-    pptx.onerror = function deletePptxElement() {
-        document.getElementById(tdptx).removeChild(pptx);
-    }
-};
