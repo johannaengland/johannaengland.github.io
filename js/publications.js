@@ -5,7 +5,7 @@ function slideshow(direction) {
     currentSlide = document.getElementById('currentSlide');
     slideNumber += direction;
     currentSlide.onerror=errorHandling;
-    currentSlide.src= "/slides/pic"+currentSlideNumber+".jpg";
+    currentSlide.src= "/slides/pic"+slideNumber+".jpg";
 
     function errorHandling() {
         if(direction == -1) {
