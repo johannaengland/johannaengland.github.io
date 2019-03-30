@@ -1,27 +1,27 @@
-let testSlideNumber = 1;
-let numberOfTestSlides = -1;
+let slideNumber = 1;
+let NumberOfSlides = -1;
     
 function slideshow(direction) {
-    testSlide = document.getElementById('testSlide');
-    testSlideNumber += direction;
-    testSlide.onerror=errorHandling;
-    testSlide.src= "/slides/pic"+testSlideNumber+".jpg";
+    currentSlide = document.getElementById('currentSlide');
+    slideNumber += direction;
+    currentSlide.onerror=errorHandling;
+    currentSlide.src= "/slides/pic"+currentSlideNumber+".jpg";
 
     function errorHandling() {
         if(direction == -1) {
-            if(numberOfTestSlides == -1) {
+            if(numberOfcurrentSlides == -1) {
                 do {
                     slideshow(1);
                 }
-                while(numberOfTestSlides == -1);
+                while(numberOfSlides == -1);
             }
-            else testSlideNumber = numberOfTestSlides;
-            testSlide.src = "/slides/pic"+testSlideNumber+".jpg";
+            else slideNumber = numberOfSlides;
+            currentSlide.src = "/slides/pic"+slideNumber+".jpg";
         }
         else if (direction == 1) {
-            if(numberOfTestSlides == -1) numberOfTestSlides = testSlideNumber-1;
-            testSlideNumber = 1;
-            testSlide.src = "/slides/pic"+testSlideNumber+".jpg";
+            if(numberOfSlides == -1) numberOfSlides = slideNumber-1;
+            slideNumber = 1;
+            currentSlide.src = "/slides/pic"+slideNumber+".jpg";
         }
     }
 }
