@@ -10,10 +10,7 @@ function slideshow(direction) {
     function errorHandling() {
         if(direction == -1) {
             if(numberOfTestSlides == -1) {
-                do {
-                    slideshow(1);
-                }
-                while(numberOfTestSlides == -1);
+                slideshow(2);
             }
             else testSlideNumber = numberOfTestSlides;
             testSlide.src = "/slides/pic"+testSlideNumber+".jpg";
@@ -29,3 +26,8 @@ function slideshow(direction) {
 function showBibtexText () {
     document.getElementById("bibtexText").classList.toggle("bibtexTextHidden");
 }
+
+window.onerror = function(message, url, lineNumber) {  
+    // code to execute on an error  
+    return true; // prevents browser error messages  
+};
