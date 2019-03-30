@@ -9,7 +9,11 @@ function slideshow(direction) {
 
     function errorHandling() {
         if(direction == -1) {
-            if(numberOfTestSlides == -1) testSlideNumber = 1;
+            if(numberOfTestSlides == -1) {
+                while(numberOfTestSlides == -1) {
+                    slideshow(+1);
+                }
+            }
             else testSlideNumber = numberOfTestSlides;
             testSlide.src = "/slides/pic"+testSlideNumber+".jpg";
         }
@@ -18,6 +22,7 @@ function slideshow(direction) {
             testSlideNumber = 1;
             testSlide.src = "/slides/pic"+testSlideNumber+".jpg";
         }
+        console.log(numberOfTestSlides);
     }
 }
     
