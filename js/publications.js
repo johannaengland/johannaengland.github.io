@@ -26,5 +26,3 @@ function slideshow(direction) {
 function showBibtexText () {
     document.getElementById("bibtexText").classList.toggle("bibtexTextHidden");
 }
-
-window.onerror = null;
