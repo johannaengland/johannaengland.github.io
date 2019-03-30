@@ -11,7 +11,7 @@ function slideshow(direction) {
         if(direction == -1) {
             if(numberOfTestSlides == -1) {
                 while(numberOfTestSlides == -1) {
-                    slideshow(+1);
+                    slideshow(1);
                 }
             }
             else testSlideNumber = numberOfTestSlides;
