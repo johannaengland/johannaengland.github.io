@@ -32,6 +32,7 @@ function showBibtexText () {
 
 window.onload = function checkDownloads() {
     pdf = document.getElementById(pdf);
+    console.log(pdf);
     pdf.href = "/downloads/publication.pdf";
     pdf.onerror = function deletePdfElement() {
         document.getElementById(tdpdf).removeChild(pdf);
