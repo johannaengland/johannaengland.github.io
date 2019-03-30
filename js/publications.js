@@ -11,6 +11,7 @@ function slideshow(direction) {
         numberOfTestSlides = testSlideNumber-1;
         testSlideNumber = 1;
         testSlide.src = "/slides/pic"+testSlideNumber+".jpg";
+        console.log(numberOfTestSlides);
     }
 }
     
