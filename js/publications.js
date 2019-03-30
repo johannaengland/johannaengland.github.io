@@ -1,5 +1,5 @@
 let slideNumber = 1;
-let NumberOfSlides = -1;
+let numberOfSlides = -1;
     
 function slideshow(direction) {
     currentSlide = document.getElementById('currentSlide');
