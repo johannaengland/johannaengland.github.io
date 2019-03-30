@@ -29,8 +29,3 @@ function slideshow(direction) {
 function showBibtexText () {
     document.getElementById("bibtexText").classList.toggle("bibtexTextHidden");
 }
-
-window.onerror = function(message, url, lineNumber) {  
-    // code to execute on an error  
-    return true; // prevents browser error messages  
-};
