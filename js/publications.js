@@ -18,7 +18,6 @@ function slideshow(direction) {
             testSlideNumber = 1;
             testSlide.src = "/slides/pic"+testSlideNumber+".jpg";
         }
-        console.log(numberOfTestSlides);
     }
 }
     
