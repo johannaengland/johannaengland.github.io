@@ -9,7 +9,7 @@ function slideshow(direction) {
 
     function errorHandling() {
         if(direction == -1) {
-            if(numberOfcurrentSlides == -1) {
+            if(numberOfSlides == -1) {
                     slideshow(1);
             }
             else slideNumber = numberOfSlides;
