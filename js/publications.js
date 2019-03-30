@@ -27,5 +27,4 @@ function showBibtexText () {
     document.getElementById("bibtexText").classList.toggle("bibtexTextHidden");
 }
 
-function silentErrorHandler() {return true;}
-window.onerror=silentErrorHandler;
+window.onerror = null;
