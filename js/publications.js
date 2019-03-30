@@ -4,8 +4,8 @@ let numberOfTestSlides = -1;
 function slideshow(direction) {
     testSlide = document.getElementById('testSlide');
     testSlideNumber += direction;
-    tester.onerror=errorHandling;
-    tester.src= "/slides/pic"+testSlideNumber+".jpg";
+    testSlide.onerror=errorHandling;
+    testSlide.src= "/slides/pic"+testSlideNumber+".jpg";
 
     function errorHandling() {
         numberOfTestSlides = testSlideNumber-1;
