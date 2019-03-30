@@ -10,7 +10,7 @@ function slideshow(direction) {
     function errorHandling() {
         numberOfTestSlides = testSlideNumber-1;
         testSlideNumber = 1;
-        tester.src = "/slides/pic"+testSlideNumber+".jpg";
+        testSlide.src = "/slides/pic"+testSlideNumber+".jpg";
     }
 }
     
