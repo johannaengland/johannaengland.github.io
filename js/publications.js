@@ -31,5 +31,5 @@ window.onload = function countSlides () {
     for(let i=0;i<=100;i++) {
         slideshow(1);
     }
-    
+    console.log(numberOfSlides);
 }
