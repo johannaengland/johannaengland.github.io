@@ -30,7 +30,7 @@ function showBibtexText () {
 }
 
 window.onload = function countSlides () {
-    for(let i=0;i<=100;i++) {
+    for(let i=0;i<1;i++) {
         console.log("currentSlideNumber: "+slideNumber+", numberOfSlides: "+numberOfSlides);
         slideshow(1);
     }
