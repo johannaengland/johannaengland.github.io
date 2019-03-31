@@ -3,8 +3,8 @@
 }
 
 #currentSlide {
-    width: 50%;
-    height: auto;
+    width: auto;
+    height: 144px;
 }
 
 #slidecount {
