@@ -11,6 +11,7 @@ function slideshow(direction) {
         if(direction == -1) {
             if(numberOfSlides == -1) {
                 do {
+                    console.log("NoS:"+numberOfSlides+", cS: "+currentSlide);
                     slideshow(1);
                 }
                 while(numberOfSlides == -1);
