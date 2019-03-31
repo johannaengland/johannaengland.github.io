@@ -4,11 +4,11 @@ let numberOfSlides = -1;
 function slideshow(direction) {
     currentSlide = document.getElementById('currentSlide');
     slideNumber += direction;
-    currentSlide.onerror=errorHandling;
+    currentSlide.onerror=errorHandling(direction);
     currentSlide.src= "/slides/pic"+slideNumber+".jpg";
 }
 
-function errorHandling() {
+function errorHandling(direction) {
     if(direction == -1) {
         if(numberOfSlides == -1) {
             slideshow(1);
