@@ -7,7 +7,7 @@ function slideshow(direction) {
     currentSlide.onerror=errorHandling;
     currentSlide.src= "/slides/pic"+slideNumber+".jpg";
 
-    function errorHandling(direction) {
+    function errorHandling() {
         if(direction == -1) {
             if(numberOfSlides == -1) {
                 slideshow(1);
