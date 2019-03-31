@@ -10,7 +10,10 @@ function slideshow(direction) {
     function errorHandling() {
         if(direction == -1) {
             if(numberOfSlides == -1) {
+                do {
                     slideshow(1);
+                }
+                while(numberOfSlides == -1);
             }
             else slideNumber = numberOfSlides;
             currentSlide.src = "/slides/pic"+slideNumber+".jpg";
