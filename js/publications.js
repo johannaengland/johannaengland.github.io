@@ -35,4 +35,5 @@ window.onload = function countSlides () {
         slideshow(1);
         console.log("currentSlideNumber: "+slideNumber+", numberOfSlides: "+numberOfSlides);
     }
+    console.log("currentSlideNumber: "+slideNumber+", numberOfSlides: "+numberOfSlides);
 }
