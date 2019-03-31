@@ -28,12 +28,3 @@ function slideshow(direction) {
 function showBibtexText () {
     document.getElementById("bibtexText").classList.toggle("bibtexTextHidden");
 }
-
-window.onload = function countSlides () {
-    for(let i=0;i<4;i++) {
-        console.log("currentSlideNumber: "+slideNumber+", numberOfSlides: "+numberOfSlides);
-        slideshow(1);
-        console.log("currentSlideNumber: "+slideNumber+", numberOfSlides: "+numberOfSlides);
-    }
-    console.log("currentSlideNumber: "+slideNumber+", numberOfSlides: "+numberOfSlides);
-}
