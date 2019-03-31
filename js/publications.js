@@ -17,7 +17,9 @@ function errorHandling(direction) {
         currentSlide.src = "/slides/pic"+slideNumber+".jpg";
     }
     else if (direction == 1) {
-        if(numberOfSlides == -1) numberOfSlides = slideNumber-1;
+        if(numberOfSlides == -1) {
+            numberOfSlides = slideNumber-1;
+        }
         slideNumber = 1;
         currentSlide.src = "/slides/pic"+slideNumber+".jpg";
     }
