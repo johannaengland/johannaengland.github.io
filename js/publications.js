@@ -26,3 +26,10 @@ function slideshow(direction) {
 function showBibtexText () {
     document.getElementById("bibtexText").classList.toggle("bibtexTextHidden");
 }
+
+window.onload = function countSlides () {
+    for(let i=0;i<=100;i++) {
+        slideshow(1);
+    }
+    
+}
