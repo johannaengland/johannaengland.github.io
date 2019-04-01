@@ -29,10 +29,3 @@ function showBibtexText () {
     document.getElementById("bibtexText").classList.toggle("bibtexTextHidden");
 }
 
-window.onload = function UrlExists("https://johannaengland.github.io/publications/year-example-publication")
-{
-    var http = new XMLHttpRequest();
-    http.open('HEAD', url, false);
-    http.send();
-    console.log(http.status!=404);
-}
