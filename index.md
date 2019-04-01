@@ -7,16 +7,16 @@ title: Johanna England
 
 Student assistant at [DIMA Group](http://www.dima.tu-berlin.de), [TU Berlin](http://www.tu-berlin.de)
 
-## Publications 
-{% assign publications = site.publications | reverse %}
-{% for publication in publications limit:5 %}
-* {{ publication.author }}: <a href="{{ publication.url }}">*{{ publication.title }}*</a>, in {{ publication.booktitle }}, {{ publication.year }}
-{% endfor %}
-
 ## News
 
 {% for news in site.news %}
   {{ news.content | split: '<!-- more -->' | first }}
+{% endfor %}
+
+## Publications 
+{% assign publications = site.publications | reverse %}
+{% for publication in publications limit:5 %}
+* {{ publication.author }}: <a href="{{ publication.url }}">*{{ publication.title }}*</a>, in {{ publication.booktitle }}, {{ publication.year }}
 {% endfor %}
 
 ## Projects
