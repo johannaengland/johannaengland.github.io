@@ -6,6 +6,7 @@ booktitle: "Book title"
 pages: "On which pages is the publication?"
 year: "Year"
 nameOfSlides: "Folie"
+fileEnding: ".JPG"
 
 abstract: "Short description of the publication."
 bibtex: "Bibtex reference"
