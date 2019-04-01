@@ -1,5 +1,6 @@
 let slideNumber = 1;
 let numberOfSlides = -1;
+let url;
     
 function slideshow(direction) {
     currentSlide = document.getElementById('currentSlide');
@@ -27,8 +28,9 @@ function slideshow(direction) {
 
 function showBibtexText () {
     document.getElementById("bibtexText").classList.toggle("bibtexTextHidden");
+    console.log(url);
 }
 
 window.onload = function atStart() {
-    console.log(document.getElementById("url").innerHTML.substring(13));
+    url = document.getElementById("url").innerHTML.substring(15);
 }
