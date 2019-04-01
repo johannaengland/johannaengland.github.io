@@ -1,7 +1,7 @@
 ---
 layout: projects
 title: "Title of the project"
-publications: year-example-publication | year-other-publication
+publications: [year-example-publication,year-other-publication]
 current: true
 
 ---
