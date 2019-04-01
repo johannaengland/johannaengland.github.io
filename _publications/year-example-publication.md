@@ -6,6 +6,7 @@ booktitle: "Book title"
 pages: "On which pages is the publication?"
 year: "Year"
 nameOfSlides: "Folie"
+fileEnding: ".JPG"
 
 abstract: "Training machine learning models at scale is a popular workload for distributed
 data flow systems. However, as these systems were originally built to fulfill quite
