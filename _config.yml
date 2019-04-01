@@ -32,7 +32,7 @@ defaults:
       type: teaching
     values:
       layout: teaching
-    - scope:
+  - scope:
       path: ""
       type: projects
     values:
