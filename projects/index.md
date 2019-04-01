@@ -7,5 +7,5 @@ title: Projects
 
 {% assign projects = site.projects | reverse %}
 {% for project in projects %}
-* {{ project.title }}
+* <a href="{{ project.url }}">{{ project.title }}</a>
 {% endfor %}
