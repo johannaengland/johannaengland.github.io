@@ -11,6 +11,10 @@
     width: 50%;
 }
 
+#url, #nameOfSlides, #fileEnding {
+    display: none;
+}
+
 .bibtexTextHidden {
     display: none;
 }
