@@ -36,6 +36,6 @@ window.onload = function atStart() {
     url = document.getElementById("url").innerHTML.substring(15);
     nameOfSlides = document.getElementById("nameOfSlides").innerHTML;
     nameOfSlides = document.getElementById("fileEnding").innerHTML;
-    console.log("/slides/"+url+nameOfSlides+slideNumber+fileEnding);
+    console.log("/slides/"+url+"nameOfSlides: "+nameOfSlides+"slideNumber:"+slideNumber+"FE: "+fileEnding);
     //document.getElementById('currentSlide').src = "/slides/"+url+nameOfSlides+slideNumber+fileEnding;
 }
