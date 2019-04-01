@@ -30,5 +30,5 @@ function showBibtexText () {
 }
 
 window.onload = function atStart() {
-    console.log(document.getElementById("url").innerHTML);
+    console.log(document.getElementById("url").innerHTML.substring(13));
 }
