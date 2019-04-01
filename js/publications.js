@@ -45,6 +45,5 @@ window.onload = function atStart() {
     fileEnding = document.getElementById("fileEnding").innerHTML;
     source = "/slides/"+url+"/"+nameOfSlides+slideNumber+fileEnding; 
     source = source.replace(/\s+/g, '');
-    console.log(source);
-    //document.getElementById('currentSlide').src = "/slides/"+url+nameOfSlides+slideNumber+fileEnding;
+    document.getElementById('currentSlide').src = source;
 }
