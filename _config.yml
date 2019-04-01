@@ -12,6 +12,9 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:name
+  projects:
+    output: true
+    permalink: /:collection/:name
 
 defaults:
   - scope:
@@ -29,3 +32,8 @@ defaults:
       type: teaching
     values:
       layout: teaching
+    - scope:
+      path: ""
+      type: projects
+    values:
+      layout: projects
