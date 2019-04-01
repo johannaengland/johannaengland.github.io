@@ -26,9 +26,6 @@
     </div><!-- /.container -->
     <h2>Folien</h2>
     <img id="currentSlide"> <br>
-    <p id="url" style="display: hidden"> {{ page.url }} </p>
-    <p id="nameOfSlides" style="display: hidden"> {{ page.nameOfSlides }} </p>
-    <p id="fileEnding" style="display: hidden"> {{ page.fileEnding }} </p>
     <progress id="slidecount" value="0" max="2"></progress><br>
     <p>
         <button type="button" onclick="slideshow(-1)">previous</button>
@@ -49,5 +46,10 @@
             <li><a href="https://github.com/johannaengland">github.com/johannaengland</a></li>
         </ul>
     </footer>
+    
+    <!-- These are no elements of the page - just helper //-->
+    <p id="url"> {{ page.url }} </p>
+    <p id="nameOfSlides"> {{ page.nameOfSlides }} </p>
+    <p id="fileEnding"> {{ page.fileEnding }} </p>
 </body>
 </html>
