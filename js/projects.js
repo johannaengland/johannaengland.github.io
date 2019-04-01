@@ -1,4 +1,4 @@
-window.onload = function() {
+window.onload = function atStart() {
     let publications = document.getElementsByClassName("publications");
     for(publication in publications) {
         let name = publication.innerHTML;
