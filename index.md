@@ -22,9 +22,7 @@ Student assistant at [DIMA Group](http://www.dima.tu-berlin.de), [TU Berlin](htt
 ## Projects
 {% assign projects = site.projects | reverse %}
 {% for project in projects limit:5 %}
-{% if project.current %}
 * <a href="{{ project.url }}">{{ project.title }}</a>
-{% endif %}
 {% endfor %}
 
 ## Teaching
