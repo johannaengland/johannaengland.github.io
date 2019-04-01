@@ -21,6 +21,13 @@
 
     </div><!-- /.container -->
 
+    <h2>Related Publications</h2>
+    <ul>
+    {% for publication in site.publication %}
+        <li>{{ publication }}</li>
+    {% endfor %}
+    </ul>
+        
     <footer>
         <ul>
             <li><a href="mailto:england@campus.tu-berlin.de">email</a></li>
