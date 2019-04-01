@@ -28,3 +28,11 @@ function slideshow(direction) {
 function showBibtexText () {
     document.getElementById("bibtexText").classList.toggle("bibtexTextHidden");
 }
+
+window.onload = function UrlExists(/slides/Folie1.JPG)
+{
+    var http = new XMLHttpRequest();
+    http.open('HEAD', url, false);
+    http.send();
+    console.log(http.status!=404);
+}
