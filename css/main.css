@@ -1,3 +1,7 @@
+* {
+    background-color: rgba(197,14,31,0.3);
+}
+
 #bibtexBtn {
     cursor: pointer;
 }
@@ -35,6 +39,7 @@ a em {
 body {
     margin: 60px auto;
     width: 70%;
+    background-color: white;
 }
 
 button img {
