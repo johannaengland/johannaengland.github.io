@@ -79,6 +79,10 @@ p {
     color: #333;
 }
 
+ul {
+    margin: 0px;
+}
+
 ul li p, ul li {
     font-size: 21px;
     line-height: 29px;
