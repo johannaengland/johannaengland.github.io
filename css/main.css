@@ -77,7 +77,7 @@ p {
 ul li p, ul li {
     font-size: 21px;
     line-height: 25px;
-    margin: none;
+    margin: 5px;
 }
 
 ul.posts { 
