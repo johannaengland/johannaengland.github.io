@@ -9,6 +9,6 @@ window.onload = function atStart() {
         link.href= "/publications/"+name;
         console.log(link);
         console.log(publications[i]);
-        //publication.appendChild(link);
+        publications[i].appendChild(link);
     }
 }
