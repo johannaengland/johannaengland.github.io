@@ -6,6 +6,8 @@ window.onload = function atStart() {
         let link = document.createElement("a");
         link.innerHTML = name;
         link.href= "/publications/"+name;
-        publication.appendChild(link);
+        console.log(link);
+        console.log(publication);
+        //publication.appendChild(link);
     }
 }
