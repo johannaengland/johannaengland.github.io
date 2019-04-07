@@ -1,14 +1,14 @@
 window.onload = function atStart() {
     let publications = document.getElementsByClassName("publications");
     console.log(publications);
-    for(publication in publications) {
-        let name = publication.innerHTML;
-        publication.innerHTML = "";
+    for(let i=0;i<publications.length;i++) {
+        let name = publications[i].innerHTML;
+        publications[i].innerHTML = "";
         let link = document.createElement("a");
         link.innerHTML = name;
         link.href= "/publications/"+name;
         console.log(link);
-        console.log(publication);
+        console.log(publications[i]);
         //publication.appendChild(link);
     }
 }
