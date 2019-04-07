@@ -82,6 +82,7 @@ ul li p, ul li {
     font-size: 21px;
     line-height: 29px;
     margin: 0px;
+    padding: 5px;
 }
 
 ul.posts { 
