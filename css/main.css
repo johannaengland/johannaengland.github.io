@@ -5,6 +5,7 @@
 #currentSlide {
     width: auto;
     height: 360px;
+    border-style: solid;
     border: #333;
 }
 
