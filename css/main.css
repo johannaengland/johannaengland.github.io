@@ -4,13 +4,11 @@
 
 #currentSlide {
     width: auto;
-    height: 144px;
-    margin: auto;
+    height: 720px;
 }
 
 #slidecount {
     width: 50%;
-    margin: auto;
 }
 
 #url, #nameOfSlides, #fileEnding {
@@ -26,7 +24,8 @@
 }
 
 .downloads {
-    height: 45px;
+    height: 10px;
+    width: auto;
 }
 
 a {
