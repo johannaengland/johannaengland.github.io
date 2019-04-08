@@ -5,10 +5,12 @@
 #currentSlide {
     width: auto;
     height: 144px;
+    margin: auto;
 }
 
 #slidecount {
     width: 50%;
+    margin: auto;
 }
 
 #url, #nameOfSlides, #fileEnding {
@@ -21,6 +23,10 @@
 
 .container {
     padding: 15px;
+}
+
+.downloads {
+    height: 45px;
 }
 
 a {
