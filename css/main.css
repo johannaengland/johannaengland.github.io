@@ -5,12 +5,16 @@
 #currentSlide {
     width: 100%;
     height: auto;
-    border: solid #333;
+    border: solid ´#666666;
 }
 
 #slidecount {
     display: none;
     width: 50%;
+}
+
+#slideshowButtons {
+    margin: 12px auto;
 }
 
 #url, #nameOfSlides, #fileEnding {
