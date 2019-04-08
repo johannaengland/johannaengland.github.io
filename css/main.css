@@ -5,7 +5,7 @@
 #currentSlide {
     width: 100%;
     height: auto;
-    border: solid ´#666666;
+    border: solid #666666;
 }
 
 #slidecount {
@@ -60,7 +60,7 @@ body {
 }
 
 button {
-    background-color: #666666;
+    background-color: #d5d5d5;
 }
 
 caption {
