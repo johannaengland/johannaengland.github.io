@@ -5,6 +5,7 @@
 #currentSlide {
     width: auto;
     height: 360px;
+    border: #333;
 }
 
 #slidecount {
@@ -27,6 +28,10 @@
 .downloads {
     height: 64px;
     width: auto;
+}
+
+.slideshowBtn {
+    width: 150%;
 }
 
 a {
