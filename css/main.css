@@ -1,5 +1,6 @@
 #bibtexBtn {
     background-color: white;
+    border-style: none;
 }
 
 #currentSlide {
@@ -14,7 +15,7 @@
 }
 
 #slideshowButtons {
-    margin: 12px auto;
+    margin-top: 12px auto 12px auto;
 }
 
 #url, #nameOfSlides, #fileEnding {
