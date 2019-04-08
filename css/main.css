@@ -15,7 +15,7 @@
 }
 
 #slideshowButtons {
-    margin: 12px 250px 12px 250px;
+    margin: 12px auto;
 }
 
 #url, #nameOfSlides, #fileEnding {
