@@ -4,10 +4,11 @@
 
 #currentSlide {
     width: auto;
-    height: 720px;
+    height: 360px;
 }
 
 #slidecount {
+    display: none;
     width: 50%;
 }
 
