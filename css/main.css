@@ -3,8 +3,8 @@
 }
 
 #currentSlide {
-    width: auto;
-    height: 360px;
+    width: 100%;
+    height: auto;
     border: solid #333;
 }
 
@@ -32,8 +32,8 @@
 }
 
 .slideshowBtn {
-    width: 50px;
-    height: 25px;
+    width: 75px;
+    height: 40px;
 }
 
 a {
@@ -53,11 +53,6 @@ body {
     margin: 60px auto;
     width: 70%;
     background-color: white;
-}
-
-button img {
-    padding: 0px;
-    margin: -8px;
 }
 
 caption {
