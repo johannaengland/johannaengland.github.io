@@ -36,9 +36,9 @@ function slideshow(direction) {
 }
 
 function downloadSources() {
-    pdf = document.getElementsByClassName()[0];
-    powerpoint = document.getElementsByClassName()[1];
-    bibtex = document.getElementsByClassName()[2];
+    pdf = document.getElementsByClassName('downloads')[0];
+    powerpoint = document.getElementsByClassName('downloads')[1];
+    bibtex = document.getElementsByClassName('downloads')[2];
     console.log(pdf);
     console.log(("/downloads/"+url+"/publication.pdf").replace(/\s+/g, ''));
     //pdf.href = ("/downloads/"+url+"/publication.pdf").replace(/\s+/g, '');
