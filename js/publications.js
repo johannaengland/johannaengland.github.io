@@ -39,11 +39,9 @@ function downloadSources() {
     pdf = document.getElementsByClassName('downloads')[0];
     powerpoint = document.getElementsByClassName('downloads')[1];
     bibtex = document.getElementsByClassName('downloads')[2];
-    console.log(pdf);
-    console.log(("/downloads/"+url+"/publication.pdf").replace(/\s+/g, ''));
-    //pdf.href = ("/downloads/"+url+"/publication.pdf").replace(/\s+/g, '');
-    //powerpoint.href = ("/downloads/"+url+"/slides.pptx").replace(/\s+/g, '');
-    //bibtex.href = ("/downloads/"+url+"/bibtex.bib").replace(/\s+/g, '');
+    pdf.href = ("/downloads/"+url+"/publication.pdf").replace(/\s+/g, '');
+    powerpoint.href = ("/downloads/"+url+"/slides.pptx").replace(/\s+/g, '');
+    bibtex.href = ("/downloads/"+url+"/bibtex.bib").replace(/\s+/g, '');
 }
 
 window.onload = function atStart() {
