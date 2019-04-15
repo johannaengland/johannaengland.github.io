@@ -35,6 +35,17 @@ function slideshow(direction) {
     }
 }
 
+function downloadSources() {
+    pdf = document.getElementsByClassName()[0];
+    powerpoint = document.getElementsByClassName()[1];
+    bibtex = document.getElementsByClassName()[2];
+    console.log(pdf);
+    console.log(("/downloads/"+url+"/publication.pdf").replace(/\s+/g, ''));
+    //pdf.href = ("/downloads/"+url+"/publication.pdf").replace(/\s+/g, '');
+    //powerpoint.href = ("/downloads/"+url+"/slides.pptx").replace(/\s+/g, '');
+    //bibtex.href = ("/downloads/"+url+"/bibtex.bib").replace(/\s+/g, '');
+}
+
 window.onload = function atStart() {
     url = document.getElementById("url").innerHTML.substring(15);
     nameOfSlides = document.getElementById("nameOfSlides").innerHTML;
@@ -42,4 +53,6 @@ window.onload = function atStart() {
     source = "/slides/"+url+"/"+nameOfSlides+slideNumber+fileEnding; 
     source = source.replace(/\s+/g, '');
     document.getElementById('currentSlide').src = source;
+
+    downloadSources();
 }
