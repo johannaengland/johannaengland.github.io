@@ -28,7 +28,6 @@
         
         <h2>Folien</h2>
         <img id="currentSlide"> <br>
-        <progress id="slidecount" value="0" max="2"></progress><br>
         <div id="slideshowButtons">
             <button class="slideshowBtn" type="button" onclick="slideshow(-1)">previous</button>
             <button class="slideshowBtn"type="button" onclick="slideshow(1)">next</button>
@@ -37,7 +36,7 @@
         <table> 
             <td><a href="/downloads/publication.pdf" download><img id="pdfIcon" class="downloads" src="/icons/pdf.jpg"></a></td>
             <td><a href="/downloads/slides.pptx" download><img id="pptIcon" class="downloads" src="/icons/ppt.jpg"></a></td>
-            <td><button id="bibtexBtn" onclick="showBibtexText()"><img class="downloads" src="/icons/bibtex.jpg"></button></td>
+            <td><a href="/downloads/bibtex.bib" download><img id="bibtexIcon" class="downloads" src="/icons/bibtex.jpg"></a></td>
             <td id="bibtexText" class="bibtexTextHidden downloads"><pre></pre></td>
 
         </table>
