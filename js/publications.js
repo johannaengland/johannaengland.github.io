@@ -38,7 +38,7 @@ function slideshow(direction) {
     }
 }
 
-function downloadSources() {
+/*function downloadSources() {
     pdf = document.getElementsByClassName()[0];
     powerpoint = document.getElementsByClassName()[1];
     bibtex = document.getElementsByClassName()[2];
@@ -49,7 +49,7 @@ function downloadSources() {
     //pdf.href = ("/downloads/"+url+"/publication.pdf").replace(/\s+/g, '');
     //powerpoint.href = ("/downloads/"+url+"/slides.pptx").replace(/\s+/g, '');
     //bibtex.href = ("/downloads/"+url+"/bibtex.bib").replace(/\s+/g, '');
-}
+}*/
 
 window.onload = function atStart() {
     url = document.getElementById("url").innerHTML.substring(15);
@@ -59,5 +59,5 @@ window.onload = function atStart() {
     sourceSlides = sourceSlides.replace(/\s+/g, '');
     document.getElementById('currentSlide').src = sourceSlides;
 
-    downloadSources();
+    //downloadSources();
 }
