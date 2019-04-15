@@ -1,17 +1,7 @@
-#bibtexBtn {
-    background-color: white;
-    border-style: none;
-}
-
 #currentSlide {
     width: 100%;
     height: auto;
     border: solid #666666;
-}
-
-#slidecount {
-    display: none;
-    width: 50%;
 }
 
 #slideshowButtons {
@@ -19,10 +9,6 @@
 }
 
 #url, #nameOfSlides, #fileEnding {
-    display: none;
-}
-
-.bibtexTextHidden {
     display: none;
 }
 
