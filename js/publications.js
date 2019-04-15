@@ -35,10 +35,6 @@ function slideshow(direction) {
     }
 }
 
-function showBibtexText () {
-    document.getElementById("bibtexText").classList.toggle("bibtexTextHidden");
-}
-
 window.onload = function atStart() {
     url = document.getElementById("url").innerHTML.substring(15);
     nameOfSlides = document.getElementById("nameOfSlides").innerHTML;
