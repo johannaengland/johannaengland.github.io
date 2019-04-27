@@ -1,6 +1,11 @@
+# Change these things
 name: Johanna England
 email: england@campus.tu-berlin.de
 github: https://johannaengland.github.io/
+
+
+
+# Don't change any of these things
 
 theme: jekyll-theme-slate
 markdown: kramdown
