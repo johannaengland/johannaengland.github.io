@@ -1,5 +1,8 @@
-theme: jekyll-theme-slate
 name: Johanna England
+email: england@campus.tu-berlin.de
+github: github.com/johannaengland
+
+theme: jekyll-theme-slate
 markdown: kramdown
 
 collections:
