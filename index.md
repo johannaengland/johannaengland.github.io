@@ -3,10 +3,11 @@ layout: default
 title: Johanna England
 
 ---
-# Johanna England
-
+# {{ site.title }}
+<!---Write here everything you want visitors of the website to know (maybe include ways to contact you and your current position and workplace)-->
 Student assistant at [DIMA Group](http://www.dima.tu-berlin.de), [TU Berlin](http://www.tu-berlin.de)
 
+<!---Don't change anything in the following document-->
 ## News
 
 {% for news in site.news %}
