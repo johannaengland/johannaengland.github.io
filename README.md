@@ -1,6 +1,7 @@
 # Welcome
 This is a manual on how to use the template-website of Johanna England for people working at DIMA at TU Berlin.
 This template uses Github-Pages for hosting the resulting website.
+You can shape some pages of this template using markdown, a cheatsheet can be found here (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). 
 
 ## Step 1: Creating the website/repository
 First you need an account for Github. If you don't already have one, create one at (https://github.com/). If that is done, go to (https://github.com/new) and create a repository with the name "*username*.github.io", where *username* is your username on Github, it won't work if the repository is called differently.
